@@ -1,0 +1,128 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.navbar-collapse ul li a:hover{
+  text-decoration: underline;
+  text-decoration-color: #F3B85C;
+  color: #F3B85C;
+  font-weight: bold;
+}
+
+.navbar-brand{
+  cursor: auto;
+}
+
+/* seccion */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-oscura{
+  color: white;
+  background-color: #F3B85C; 
+}
+
+.seccio-clara{
+  color: black;
+  background-color: #F3B85C;
+}
+
+
+
+
+/* reseñas */
+
+.columnas img{
+  border: 5px solid #F3B85C;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+h1{
+    font-size: 3rem;
+    padding: 4rem 0 2rem 0;
+    font-family: "Lobster", sans-serif;
+    justify-content: center;
+    color: #F3B85C;
+}
+
+
+
+/* contactos */
+
+
+
+.container .colum i{
+  font-size: 1.5rem;
+  padding: 10px;
+  transition: all 0.5s ease-in;
+}
+
+.container .colum i:hover{
+  color: white;
+  background-color: #F3B85C;
+  border-radius: 50%;
+  border: 2px solid #F3B85C;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+/* contacto */
+
+.Contactanos {
+  padding: 40px 40px 60px 40px;
+}
+
+.Contactanos h2{
+  font-size: 3rem;
+  padding: 2rem 0 2rem 0;
+  font-family:'Times New Roman', Times, serif;
+  color: bisque;
+ 
+}
+
+.Contactanos p{
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 40px 60px 40px;
+}
+
+.contaco .ss .input-group{
+  padding: 40px;
+}
+
+.container .colum img{
+  width: 120px;
+  height: 120px;
+}
